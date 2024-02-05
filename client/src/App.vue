@@ -1,7 +1,12 @@
 <template>
-  <h1>{{ node_env }}</h1>
-  <h3>{{ node_env }}</h3>
-  <h3>{{ node_env }}</h3>
+  <h1>
+    <ruby>
+      {{ yojijukugo }}
+      <rt>{{ yojijukugo_furi }}</rt>
+    </ruby>
+  </h1>
+  <h3>{{ description }}</h3>
+  <h3>{{ description_en }}</h3>
 </template>
 
 <script>
@@ -11,7 +16,11 @@ export default {
   },
   data() {
     return {
-      node_env: ''
+      node_env: '',
+      yojijukugo: '日進月歩',
+      yojijukugo_furi: 'にっしんげっぽ',
+      description: 'たえまなく、どんどん進歩すること。',
+      description_en: 'Continually make progress.'
     }
   },
   mounted() {
