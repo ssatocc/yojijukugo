@@ -33,9 +33,9 @@ else:
 def api_yojijukugo_get():
     data = {
         "yojijukugo": "日進月歩",
-        "yojijukugoFuri": "にっしんげっぽ",
+        "yojijukugo_furi": "にっしんげっぽ",
         "description": "たえまなく、どんどん進歩すること。",
-        "descriptionEn": "Continually make progress.",
+        "description_en": "Continually make progress.",
     }
     return jsonify(data)
 
