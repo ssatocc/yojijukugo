@@ -10,5 +10,53 @@
         "yojijukugo_furi": "いちごいちえ",
         "description": "一生に一度の出会い。",
         "description_en": "Once in a lifetime encounter."
+    },
+    {
+        "yojijukugo": "千変万化",
+        "yojijukugo_furi": "せんぺんばんか",
+        "description": "物事がさまざまに変わること。",
+        "description_en": "Constantly changing or taking on various forms."
+    },
+    {
+        "yojijukugo": "自業自得",
+        "yojijukugo_furi": "じごうじとく",
+        "description": "自分の行いの結果は自分で受けるべきだということ。",
+        "description_en": "Reaping what one sows; karma."
+    },
+    {
+        "yojijukugo": "百花繚乱",
+        "yojijukugo_furi": "ひゃっかりょうらん",
+        "description": "多くの花が競い合うように咲き乱れること。比喩的に、多様な才能が活躍する様子。",
+        "description_en": "A profusion of flowers blooming in great variety; a flourishing of talents or ideas."
+    },
+    {
+        "yojijukugo": "明鏡止水",
+        "yojijukugo_furi": "めいきょうしすい",
+        "description": "心に迷いや動揺がなく、清らかで穏やかな状態をいう。",
+        "description_en": "A state of perfect tranquility and clarity, like a mirror-still pond."
+    },
+    {
+        "yojijukugo": "臥薪嘗胆",
+        "yojijukugo_furi": "がしんしょうたん",
+        "description": "苦労や辛苦を耐え忍んで目的を達成しようとすること。",
+        "description_en": "Enduring hardships and keeping one’s resolve to achieve an objective."
+    },
+    {
+        "yojijukugo": "不撓不屈",
+        "yojijukugo_furi": "ふとうふくつ",
+        "description": "どんな困難にも屈せず、決して諦めないこと。",
+        "description_en": "Unyielding and unbreakable in the face of difficulty."
+    },
+    {
+        "yojijukugo": "温故知新",
+        "yojijukugo_furi": "おんこちしん",
+        "description": "過去を学びそれをもとに新しい知識や理解を得ること。",
+        "description_en": "Learning from the past to understand the new."
+    },
+    {
+        "yojijukugo": "空前絶後",
+        "yojijukugo_furi": "くうぜんぜつご",
+        "description": "前にも後にも例を見ないほどの珍しいこと。",
+        "description_en": "Unprecedented and unrepeatable; a once-in-a-lifetime occurrence."
     }
 ]
