@@ -43,4 +43,24 @@ Open http://localhost:8080/
 
 ### flask
 
+```bash
+echo "USE_FLASK_CORS=false" > .env
+```
+
+```bash
+python app.py
+```
+
+Open http://127.0.0.1:5000
+
 ### vue3
+
+Update production build
+
+```bash
+cd client/
+```
+
+```bash
+npm run build
+```
