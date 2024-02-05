@@ -17,6 +17,7 @@ export default {
   data() {
     return {
       nodeEnv: '',
+      baseUrl: '',
       yojijukugo: '日進月歩',
       yojijukugoFuri: 'にっしんげっぽ',
       description: 'たえまなく、どんどん進歩すること。',
@@ -25,6 +26,7 @@ export default {
   },
   mounted() {
     this.nodeEnv = process.env.NODE_ENV
+    this.baseUrl = this.nodeEnv === 'production' ? '' : 'http://127.0.0.1:5000'
     this.init()
   },
   methods: {
