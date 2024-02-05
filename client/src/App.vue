@@ -10,6 +10,8 @@
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
   name: 'App',
   components: {
@@ -31,6 +33,15 @@ export default {
   },
   methods: {
     async init() {
+      try {
+        const resp = await axios.get(this.baseUrl + '/api/yojijukugo')
+        this.yojijukugo = resp.data.yojijukugo
+        this.yojijukugoFuri = resp.data.yojijukugo_furi
+        this.description = resp.data.description
+        this.descriptionEn = resp.data.description_en
+      } catch (error) {
+        alert(error)
+      }
     }
   }
 }
