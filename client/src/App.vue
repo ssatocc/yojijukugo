@@ -20,10 +20,10 @@ export default {
     return {
       nodeEnv: '',
       baseUrl: '',
-      yojijukugo: '日進月歩',
-      yojijukugoFuri: 'にっしんげっぽ',
-      description: 'たえまなく、どんどん進歩すること。',
-      descriptionEn: 'Continually make progress.'
+      yojijukugo: '',
+      yojijukugoFuri: '',
+      description: '',
+      descriptionEn: ''
     }
   },
   mounted() {
