@@ -2,11 +2,11 @@
   <h1>
     <ruby>
       {{ yojijukugo }}
-      <rt>{{ yojijukugo_furi }}</rt>
+      <rt>{{ yojijukugoFuri }}</rt>
     </ruby>
   </h1>
   <h3>{{ description }}</h3>
-  <h3>{{ description_en }}</h3>
+  <h3>{{ descriptionEn }}</h3>
 </template>
 
 <script>
@@ -16,15 +16,15 @@ export default {
   },
   data() {
     return {
-      node_env: '',
+      nodeEnv: '',
       yojijukugo: '日進月歩',
-      yojijukugo_furi: 'にっしんげっぽ',
+      yojijukugoFuri: 'にっしんげっぽ',
       description: 'たえまなく、どんどん進歩すること。',
-      description_en: 'Continually make progress.'
+      descriptionEn: 'Continually make progress.'
     }
   },
   mounted() {
-    this.node_env = process.env.NODE_ENV
+    this.nodeEnv = process.env.NODE_ENV
     this.init()
   },
   methods: {
