@@ -1,4 +1,6 @@
+import json
 import os
+import random
 
 from dotenv import load_dotenv
 from flask import Flask, jsonify, send_from_directory
@@ -31,13 +33,10 @@ else:
 
 @app.route("/api/yojijukugo", methods=["GET"])
 def api_yojijukugo_get():
-    data = {
-        "yojijukugo": "日進月歩",
-        "yojijukugo_furi": "にっしんげっぽ",
-        "description": "たえまなく、どんどん進歩すること。",
-        "description_en": "Continually make progress.",
-    }
-    return jsonify(data)
+    with open("data.json", "r", encoding="utf-8") as f:
+        data_list = json.load(f)
+
+    return jsonify(random.choice(data_list))
 
 
 if __name__ == "__main__":
