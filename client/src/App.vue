@@ -7,6 +7,7 @@
   </h1>
   <h3>{{ description }}</h3>
   <h3>{{ descriptionEn }}</h3>
+  <button>次へ</button>
 </template>
 
 <script>
@@ -50,8 +51,13 @@ export default {
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  text-align: center;
+  text-align: left;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+button {
+  margin-top: 15px;
 }
 </style>
